@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background: purple;
+            animation: move 3s ease-in-out infinite;
+        }
+
+        @keyframes move {
+            0%   { transform: translateX(0); }
+            50%  { transform: translateX(200px); }
+            100% { transform: translateX(0); }
+        }
+    </style>
+</head>
+<body>
+
+<h2>CSS Animation Example</h2>
+<div class="box"></div>
+
+</body>
+</html>
